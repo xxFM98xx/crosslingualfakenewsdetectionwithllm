@@ -10,7 +10,7 @@ This repository contains the code for the master thesis of Filmon Mesfun at the 
 
 This project aims to detect fake news across different languages using large language models (LLMs). It includes the pre-processing of multilingual datasets, the generation of rationales using LLMs and the training of classifiers to detect fake news.
 
-
+```
 ## Projektstructure
 |-- main.py
 |-- README.md
@@ -53,7 +53,7 @@ This project aims to detect fake news across different languages using large lan
 |-- Dataset
   |-- InitialDataset
   |-- ProcessedDataset
-
+```
 
 ## Steps
 For preprocessing and rational generation, see PREPROCESSING_RATIONALE_GENERATION_LLM.md
