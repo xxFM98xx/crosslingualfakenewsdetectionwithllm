@@ -1,7 +1,7 @@
 
 ---
 
-### 2. **README.md im Ordner model_training**
+### 2. **README.md model_training**
 
 ```markdown
 # Modelltraining
