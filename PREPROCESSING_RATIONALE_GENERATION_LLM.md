@@ -71,7 +71,7 @@ pip install -r [requirements.txt](http://_vscodecontentref_/0)
 ### 4. Ausführen von `PreprocessingTranslator.py`
 
 Führen Sie `PreprocessingTranslator.py` aus, um die Vorverarbeitung wie in der Thesis beschrieben durchzuführen. Des Weiteren werden noch Zugangsdaten für die Google Translator API benötigt, die besorgt werden müssen, um die nicht-englischen Datensätze ins Englische zu übersetzen.
-```
+
 
 ### 5. Rationale Generation
 
@@ -105,6 +105,7 @@ Um den Einfluss der Sprachverteilung in den Trainingsdaten auf die Performance z
 2. Aufrufen von `evaluation_script.py` durch Aufrufen der Funktionen `all_arg_llm_cross_ds_(LLM_REPORT_PATH)`, sodass ein datensatzübergreifender LLM Performances DataFrame erstellt wird, wie in der Thesis zu sehen.
 3. Aufrufen von `evaluation_script.py` `transform_llm_into_la_info_supported(pd.read_csv(LLM_CROSS_DS_PATH))` zum Erstellen der DataFrames `data_df`, `binary_data_df`, welche die LLM Performances sowie die Sprachverteilungen in Form von unterstützten Sprachen bzw. numerische Verteilungen enthält.
 4. Ausführen von `CorrelationAnalysisLLM.py`, um Korrelationen in Form von DataFrames zu erhalten.
+```
 
 
 
