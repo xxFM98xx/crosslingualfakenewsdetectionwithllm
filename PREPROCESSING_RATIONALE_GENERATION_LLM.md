@@ -50,7 +50,7 @@ This directory contains code and scripts to generate rationales using LLMs to co
 ### 1. Download Datasets
 
 Links:
-- ARG Datasets(Englisch und Chinesisch) (needs to be requested): [Anfrageformular][(https://forms.office.com/pages/responsepage.aspx?    id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__QiMr41UQlhTMUVHTzFLVEowWDhCODgwUjZZOTVOMi4u&route=shorturl](https://forms.office.com/r/DfVwbsbVyM))
+- ARG Datasets(Englisch und Chinesisch) (needs to be requested): [Anfrageformular][(https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__QiMr41UQlhTMUVHTzFLVEowWDhCODgwUjZZOTVOMi4u&route=shorturl](https://forms.office.com/r/DfVwbsbVyM))
 - BanFakeNews: [Kaggle](https://www.kaggle.com/datasets/cryptexcode/banfakenews)
 - FANG-COVID: [GitHub](https://github.com/justusmattern/fang-covid)
 - AFND: [Kaggle](https://www.kaggle.com/datasets/murtadhayaseen/arabic-fake-news-dataset-afnd/data)
