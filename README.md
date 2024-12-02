@@ -37,7 +37,7 @@ This project aims to detect fake news across different languages using large lan
 |-- model_training
   |-- grid_search.py
   |-- main.py
-  |-- PREPROCESSING_RATIONALE_GENERATION_LLM.md
+  |-- MODEL_TRAINING.md
   |-- requirements_models.txt
   |-- models
     |-- arg.py
