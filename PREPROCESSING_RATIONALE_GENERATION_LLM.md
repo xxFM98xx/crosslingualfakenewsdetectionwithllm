@@ -86,7 +86,7 @@ To evaluate the rationales of an LLM on a dataset, `Evaluator.evaluate_llm()` ca
 #### 6.5.2 _all_llm_evaluation_into_dfs()
 To transfer the `llm_report.json` saved by `evaluate_llm` in subdirectories in JSON to DataFrames or tables, as done in the thesis, for each dataset, `Evaluator._all_llm_evaluation_into_dfs()` can be used. To do this, `report_dir` must be specified, which should contain all `llm_report.json` datasets.
 
-### 7. Erstellen der Datensätze für nachfolgendes Training der Modelle
+### 7. Create Datasets for subsequent model training
 The `Data_Prepper` script can be used to create datasets from the previously generated and subsequently extracted DataFrames, which are stored in the `extracted` subdirectory. This takes the DataFrames stored in `extracted` and creates a new subdirectory `prepped` at the level of the subdirectory `extracted` and creates a subdirectory there for each LLM and dataset combination, e.g. `_falcon_7b_arg_chinese`. This subdirectory `falcon_7b_arg_chinese` contains sub-subdirectories for each data set variant `source`, `google`, `llm`, which then contain `train.json`, `test.json` and `val.json`.
 
 ### RQ2
